@@ -7,7 +7,7 @@ server {
   error_log /var/log/nginx/error.log;
   access_log /var/log/nginx/access.log;
 
-  strip app.php/ prefix if it is present
+  #strip app.php/ prefix if it is present
   rewrite ^/app\.php/?(.*)$ /$1 permanent;
 
   location / {
