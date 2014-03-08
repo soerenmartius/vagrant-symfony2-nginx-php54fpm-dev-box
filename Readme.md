@@ -1,4 +1,4 @@
-Vagrant Symfony2 Development box with Nginx and PHP 5.4
+Vagrant2 Symfony2 Development box with Nginx and PHP 5.4
 ===============================================
 
 Installation
@@ -6,8 +6,8 @@ Installation
 
 ### this box is only tested with ubuntu precise 64 bit
 
-* Install vagrant using the installation instructions in the [Getting Started document](http://vagrantup.com/v1/docs/getting-started/index.html)
-* Add a Ubuntu Precise box using the [available official boxes](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Boxes), for example: ```vagrant box add phpdevbox http://files.vagrantup.com/precise64.box``` (make sure it's named phpdevbox)
+* Install vagrant version 2 using the installation instructions in the [Getting Started document](http://docs.vagrantup.com/v2/getting-started/)
+* Add a Ubuntu Precise box using the [available official boxes](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Boxes), for example: ```vagrant box add phpdevbox http://files.vagrantup.com/precise64.box```
 * Clone this repository
 * Install submodules with ```git submodule update --init```
 * After running ```vagrant up``` the box is set up using Puppet
@@ -49,18 +49,6 @@ If you want to debug your cli application using xdebug for example with Phpstorm
 
     $ export XDEBUG_CONFIG="idekey=phpstorm-xdebug remote_host=192.168.33.1 profiler_enable=1 default_enable=1 remote_enable=1 remote_handler=dbgp remote_port=9000 remote_autostart=0"
 
-Hints
------
-
-**Startup speed**
-
-To speed up the startup process use
-
-.. code-block:: sh
-
-    $ vagrant up --no-provision
-
-after the first run. It just starts the virtual machine without provisioning of the recipes.
 
 TODO
 ----
