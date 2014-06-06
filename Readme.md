@@ -1,4 +1,4 @@
-Vagrant2 Symfony2 Development box with Nginx and PHP 5.4
+Vagrant 1.6.3 Symfony2 Development box with Nginx and PHP 5.4
 ===============================================
 
 Installation
@@ -6,7 +6,7 @@ Installation
 
 ### this box is only tested with ubuntu precise 64 bit
 
-* Install vagrant version 2 using the installation instructions in the [Getting Started document](http://docs.vagrantup.com/v2/getting-started/)
+* Install vagrant version 1.6.3 using the installation instructions in the [Getting Started document](http://docs.vagrantup.com/v2/getting-started/)
 * Add a Ubuntu Precise box using the [available official boxes](https://github.com/mitchellh/vagrant/wiki/Available-Vagrant-Boxes), for example: ```vagrant box add phpdevbox http://files.vagrantup.com/precise64.box```
 * Clone this repository
 * Install submodules with ```git submodule update --init```
