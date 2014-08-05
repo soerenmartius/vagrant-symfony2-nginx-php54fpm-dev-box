@@ -1,4 +1,4 @@
-Vagrant 1.6.3 Symfony2 Development box with Nginx and PHP 5.4
+Vagrant 1.6.3 Symfony2 Development box with Nginx and PHP 5.5
 ===============================================
 
 Installation
@@ -18,7 +18,7 @@ Installed components
 --------------------
 
 * [Nginx](http://nginx.org) using puppet module (https://github.com/example42/puppet-nginx)
-* [php5.4-fpm](http://php-fpm.org)
+* [php5.5-fpm](http://php-fpm.org)
 * [composer](http://getcomposer.org)
 * [git](http://git-scm.com/)
 * [pear](http://pear.php.net/)
