@@ -18,6 +18,8 @@ Vagrant.configure("2") do |config|
     puppet.options = ['--verbose']
    end
 
-  config.vm.synced_folder ".", "/vagrant", type: "nfs"
+  config.vm.synced_folder ".", "/vagrant",
+    :nfs => true,
+    :mount_options => ['actimeo=2']
 
 end
