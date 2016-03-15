@@ -1,3 +1,7 @@
+
+This repository is outdated and not maintained anymore
+===============================================
+
 Vagrant 1.6.3 Symfony2 Development box with Nginx and PHP 5.5
 ===============================================
 
